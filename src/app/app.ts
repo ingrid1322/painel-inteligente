@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { DashboardComponent } from "./components/dashboard/dashboard";
+import { AlertFormComponent } from "./components/alert-form/alert-form";
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [DashboardComponent, AlertFormComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
